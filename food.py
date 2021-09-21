@@ -20,6 +20,7 @@ class Food(Turtle):
         b = random.randint(1, 255)
         random_color = (r, g, b)
         return random_color
+
     def refresh(self):
         random_x = random.randint(-280, 280)
         random_y = random.randint(-280, 280)
